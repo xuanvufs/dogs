@@ -8,9 +8,6 @@ namespace Animate
 {
     public partial class Hey : Form
     {
-        private const int WIDTH = 500;
-        private const int HEIGHT = 364;
-
         private readonly int _x;
         private readonly int _y;
 
@@ -19,8 +16,8 @@ namespace Animate
             InitializeComponent();
 
             var area = Screen.PrimaryScreen.WorkingArea;
-            _x = area.X + area.Width - WIDTH;
-            _y = area.Y + area.Height - HEIGHT;
+            _x = area.X + area.Width - Width;
+            _y = area.Y + area.Height - Height + 2;
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

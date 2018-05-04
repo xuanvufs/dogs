@@ -36,6 +36,9 @@
   <PropertyGroup>
     <StartupObject>Animate.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\doggy.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -93,7 +96,10 @@
     <None Include="Resources\333botx.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\doggy_wave.gif" />
+    <None Include="Resources\slack-imgs.com.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\doggy.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -68,9 +68,9 @@
             // 
             this.dogs.ErrorImage = null;
             this.dogs.Image = global::Animate.Properties.Resources.doggy_wave;
-            this.dogs.Location = new System.Drawing.Point(0, 0);
+            this.dogs.Location = new System.Drawing.Point(-30, -14);
             this.dogs.Name = "dogs";
-            this.dogs.Size = new System.Drawing.Size(500, 364);
+            this.dogs.Size = new System.Drawing.Size(330, 237);
             this.dogs.TabIndex = 0;
             this.dogs.TabStop = false;
             // 
@@ -79,7 +79,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(500, 364);
+            this.ClientSize = new System.Drawing.Size(287, 224);
             this.ControlBox = false;
             this.Controls.Add(this.dogs);
             this.DoubleBuffered = true;
